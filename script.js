@@ -1,6 +1,6 @@
 // $('.search-button').on('click',function(){
 //     $.ajax({
-//         url: 'http://www.omdbapi.com/?apikey=f3abb3c5&s='+$('.input-keyword').val(),
+//         url: 'https://www.omdbapi.com/?apikey=f3abb3c5&s='+$('.input-keyword').val(),
 //         success: apiFilms => {
 //             const films = apiFilms.Search
 //             let cards = ''
@@ -31,7 +31,7 @@
 // const searchButton = document.querySelector('.search-button')
 // searchButton.addEventListener('click',function(){
 //     const inputKeyword = document.querySelector('.input-keyword')
-//     fetch(`http://www.omdbapi.com/?apikey=f3abb3c5&s=${inputKeyword.value}`)
+//     fetch(`https://www.omdbapi.com/?apikey=f3abb3c5&s=${inputKeyword.value}`)
 //         .then(response => response.json())
 //         .then(response => {
 //             const movies = response.Search
@@ -44,7 +44,7 @@
 //         detailButton.forEach(btn=>{
 //             btn.addEventListener('click',function(){
 //                 const idIMDB = this.id
-//                 fetch(`http://www.omdbapi.com/?apikey=f3abb3c5&i=${idIMDB}`)
+//                 fetch(`https://www.omdbapi.com/?apikey=f3abb3c5&i=${idIMDB}`)
 //                 .then(result=> result.json())
 //                 .then(result => {
 //                     const movieDetail = showMovieDetail(result)
